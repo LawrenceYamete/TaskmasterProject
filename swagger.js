@@ -6,7 +6,7 @@ const doc = {
     description: 'Stores tasks, users, teams and inventory info and allows users to CRUD.',
   },
   host: 'taskmaster-project.onrender.com',
-  schemes: ['https'],
+  schemes: ['https', 'http']
 };
 
 const outputFile = './swagger-output.json';
